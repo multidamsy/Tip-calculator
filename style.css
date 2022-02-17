@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(185, 41%, 84%);
+    height: 100%;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+h1.heading {
+    text-align: center;
+}
+div.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    max-width: 100%;
+}
+div.container {
+    background-color: white;
+    height: fit-content;
+    min-width: 550px;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+}
+div.leftBox {
+    width: 50%;
+    margin-right: 25px;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+div.rightBox {
+    width: 50%;
+    border-radius: 5px;
+    background-color: hsl(183, 100%, 15%);
+    padding: 20px;
+}
+.grid-wrapper {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 7%;
+}
+div.top1 {
+    display: flex;
+    justify-content: space-between;
+}
+button.resetButton {
+    width: 90%;
+}

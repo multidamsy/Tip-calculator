@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+
+</head>
+<body>
+  <h1 class='heading' >SPPLITTER</h1>
+  <div class='cover'>
+    <div class='container'>
+      <div class='leftBox'>
+        <h2>Bill</h2>
+        <input id="input" type="number" placeholder="$">
+        <h3>Select Tip %</h3>
+        <div class="grid-wrapper">
+          <button id="enter1">5%</button>
+          <button id="enter2">10%</button>
+          <button id="enter3">15%</button>
+          <button id="enter4">25%</button>
+          <button id="enter5">50%</button>
+          <button id="custom">Custom</button>
+        </div>
+
+        <h3>Number of People</h3>
+        <input id="inputPeople" type="number" placeholder="$">
+        
+        <div>
+          <button id="calc">Calculate</button>
+        </div>
+      </div>
+
+        
+      
+      <div class='rightBox'>
+        <div id="top1">
+          <p>Tip Amount is : <br>
+            $ <span id = "result1"></span>
+          </p>          
+        </div>
+
+        <div id="top2">
+          <p>Total / Person is : <br>
+            $ <span id = "result2"></span>
+          </p>          
+      </div>
+
+          <div class="bottom">
+            <button class="resetButton">Reset</button>
+          </div>
+          
+        </div>
+  </div>
+</div>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ivantage</a>.
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
